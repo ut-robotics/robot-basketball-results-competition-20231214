@@ -1318,7 +1318,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": false,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [[{"time": 1702566222311, "isValid": true}], []],
@@ -1371,17 +1371,23 @@
             "fouls": [[], [{"time": 1702566481952}]],
             "baskets": ["magenta", "blue"],
             "hasEnded": true,
-            "isConfirmed": false,
+            "isConfirmed": true,
             "duration": 60093,
             "timeLimit": 60000,
-            "winnerIndex": -1,
+            "winnerIndex": 1,
             "runs": [
               {"startTime": 1702566409648, "endTime": 1702566460518},
               {"startTime": 1702566503518, "endTime": 1702566512741}
             ]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+          "roundWinCount": 2,
+          "roundLossCount": 1,
+          "roundTieCount": 0
+        },
         "ballPlacement": [
           [0, 0],
           [0.92, 0.54],
@@ -1395,6 +1401,43 @@
           [0.9, -0.15],
           [-0.9, 0.15]
         ]
+      },
+      {
+        "id": 1007,
+        "robots": [
+          {"id": "ois3", "name": "Õis 3"},
+          {"id": "legiones-skitarii", "name": "Legiones Skitarii"}
+        ],
+        "startingBaskets": ["blue", "magenta"],
+        "isTieAllowed": false,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["blue", "magenta"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [1.44, -1.03],
+          [-1.44, 1.03],
+          [-0.5, 0.92],
+          [0.5, -0.92],
+          [-1.74, 1.41],
+          [1.74, -1.41],
+          [2.09, -1.45],
+          [-2.09, 1.45],
+          [1.08, -0.44],
+          [-1.08, 0.44]
+        ]
       }
     ],
     "gameTypes": {
@@ -1403,7 +1446,8 @@
       "1003": "noLoss",
       "1004": "oneLoss",
       "1005": "oneLoss",
-      "1006": "firstFinal"
+      "1006": "firstFinal",
+      "1007": "secondFinal"
     },
     "noLossQueue": [],
     "oneLossQueue": [],
@@ -1419,11 +1463,21 @@
         "blue",
         "magenta",
         "magenta",
-        "blue"
+        "blue",
+        "magenta"
       ],
       "tasujad": ["blue", "magenta", "blue", "magenta", "magenta", "blue"],
       "delta-y": ["magenta", "magenta", "magenta", "magenta", "blue"],
-      "ois3": ["magenta", "blue", "blue", "magenta", "blue", "blue", "magenta"]
+      "ois3": [
+        "magenta",
+        "blue",
+        "blue",
+        "magenta",
+        "blue",
+        "blue",
+        "magenta",
+        "blue"
+      ]
     },
     "hasEnded": false
   },
@@ -1435,7 +1489,7 @@
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [[{"time": 1702566222311, "isValid": true}], []],
@@ -1488,17 +1542,23 @@
         "fouls": [[], [{"time": 1702566481952}]],
         "baskets": ["magenta", "blue"],
         "hasEnded": true,
-        "isConfirmed": false,
+        "isConfirmed": true,
         "duration": 60093,
         "timeLimit": 60000,
-        "winnerIndex": -1,
+        "winnerIndex": 1,
         "runs": [
           {"startTime": 1702566409648, "endTime": 1702566460518},
           {"startTime": 1702566503518, "endTime": 1702566512741}
         ]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+      "roundWinCount": 2,
+      "roundLossCount": 1,
+      "roundTieCount": 0
+    },
     "ballPlacement": [
       [0, 0],
       [0.92, 0.54],
