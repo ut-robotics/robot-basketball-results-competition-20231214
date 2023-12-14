@@ -365,15 +365,15 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [[{"time": 1702558554062, "isValid": true}], []],
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 7600,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1702558546464, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -473,81 +473,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 4,
+    "id": 5,
     "robots": [
-      {"id": "hi-bot", "name": "Hi...Bot"},
-      {"id": "tasujad", "name": "Tasujad"}
+      {"id": "team-electronics", "name": "Team Electronics"},
+      {"id": "legiones-skitarii", "name": "Legiones Skitarii"}
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [
-            {"time": 1702558316699, "isValid": true},
-            {"time": 1702558324260, "isValid": true},
-            {"time": 1702558349917, "isValid": true}
-          ],
-          [
-            {"time": 1702558310588, "isValid": true},
-            {"time": 1702558317706, "isValid": true},
-            {"time": 1702558323367, "isValid": true},
-            {"time": 1702558342626, "isValid": true},
-            {"time": 1702558360549, "isValid": false}
-          ]
-        ],
+        "scores": [[{"time": 1702558554062, "isValid": true}], []],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60105,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 7601,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1702558300682, "endTime": 1702558360787}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1702558458746, "isValid": true},
-            {"time": 1702558463328, "isValid": true}
-          ],
-          [
-            {"time": 1702558452031, "isValid": true},
-            {"time": 1702558457125, "isValid": true},
-            {"time": 1702558461899, "isValid": true},
-            {"time": 1702558476454, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60092,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1702558420321, "endTime": 1702558480413}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1702558546464, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "tasujad", "name": "Tasujad"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.07, 1.2],
-      [0.07, -1.2],
-      [1.33, 0.44],
-      [-1.33, -0.44],
-      [1.73, -0.51],
-      [-1.73, 0.51],
-      [1.53, -1.07],
-      [-1.53, 1.07],
-      [-1.6, -0.82],
-      [1.6, 0.82]
+      [1.25, -0.8],
+      [-1.25, 0.8],
+      [1.03, 1.22],
+      [-1.03, -1.22],
+      [1.03, -0.69],
+      [-1.03, 0.69],
+      [-0.5, -0.88],
+      [0.5, 0.88],
+      [-0.77, 1.15],
+      [0.77, -1.15]
     ]
   }
 }
