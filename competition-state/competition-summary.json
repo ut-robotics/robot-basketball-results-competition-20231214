@@ -1196,7 +1196,7 @@
         ],
         "startingBaskets": ["magenta", "blue"],
         "isTieAllowed": false,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -1282,14 +1282,20 @@
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": true,
-            "isConfirmed": false,
+            "isConfirmed": true,
             "duration": 30105,
             "timeLimit": 30000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [{"startTime": 1702566031488, "endTime": 1702566061593}]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+          "roundWinCount": 1,
+          "roundLossCount": 1,
+          "roundTieCount": 1
+        },
         "ballPlacement": [
           [0, 0],
           [-1.72, 0.33],
@@ -1303,6 +1309,43 @@
           [-0.59, 0.59],
           [0.59, -0.59]
         ]
+      },
+      {
+        "id": 1006,
+        "robots": [
+          {"id": "ois3", "name": "Õis 3"},
+          {"id": "legiones-skitarii", "name": "Legiones Skitarii"}
+        ],
+        "startingBaskets": ["magenta", "blue"],
+        "isTieAllowed": false,
+        "hasEnded": false,
+        "rounds": [
+          {
+            "scores": [[], []],
+            "fouls": [[], []],
+            "baskets": ["magenta", "blue"],
+            "hasEnded": false,
+            "isConfirmed": false,
+            "duration": 0,
+            "timeLimit": 60000,
+            "winnerIndex": -1,
+            "runs": []
+          }
+        ],
+        "status": {"result": "unknown"},
+        "ballPlacement": [
+          [0, 0],
+          [0.92, 0.54],
+          [-0.92, -0.54],
+          [1.63, 0.64],
+          [-1.63, -0.64],
+          [-1.66, 1.43],
+          [1.66, -1.43],
+          [0.53, -1.29],
+          [-0.53, 1.29],
+          [0.9, -0.15],
+          [-0.9, 0.15]
+        ]
       }
     ],
     "gameTypes": {
@@ -1310,11 +1353,15 @@
       "1002": "noLoss",
       "1003": "noLoss",
       "1004": "oneLoss",
-      "1005": "oneLoss"
+      "1005": "oneLoss",
+      "1006": "firstFinal"
     },
-    "noLossQueue": [{"id": "ois3", "name": "Õis 3"}],
+    "noLossQueue": [],
     "oneLossQueue": [],
-    "eliminatedRobots": [{"id": "delta-y", "name": "Delta Y"}],
+    "eliminatedRobots": [
+      {"id": "delta-y", "name": "Delta Y"},
+      {"id": "tasujad", "name": "Tasujad"}
+    ],
     "robotStartingBaskets": {
       "legiones-skitarii": [
         "blue",
@@ -1322,11 +1369,12 @@
         "blue",
         "blue",
         "magenta",
-        "magenta"
+        "magenta",
+        "blue"
       ],
       "tasujad": ["blue", "magenta", "blue", "magenta", "magenta", "blue"],
       "delta-y": ["magenta", "magenta", "magenta", "magenta", "blue"],
-      "ois3": ["magenta", "blue", "blue", "magenta", "blue", "blue"]
+      "ois3": ["magenta", "blue", "blue", "magenta", "blue", "blue", "magenta"]
     },
     "hasEnded": false
   },
@@ -1338,7 +1386,7 @@
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -1424,14 +1472,20 @@
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
         "hasEnded": true,
-        "isConfirmed": false,
+        "isConfirmed": true,
         "duration": 30105,
         "timeLimit": 30000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [{"startTime": 1702566031488, "endTime": 1702566061593}]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+      "roundWinCount": 1,
+      "roundLossCount": 1,
+      "roundTieCount": 1
+    },
     "ballPlacement": [
       [0, 0],
       [-1.72, 0.33],
