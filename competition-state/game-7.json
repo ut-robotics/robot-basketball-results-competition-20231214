@@ -1,17 +1,17 @@
 {
   "id": 7,
   "robots": [
-    {"id": "team-electronics", "name": "Team Electronics"},
-    {"id": "tasujad", "name": "Tasujad"}
+    {"id": "hi-bot", "name": "Hi...Bot"},
+    {"id": "ois3", "name": "Õis 3"}
   ],
-  "startingBaskets": ["magenta", "blue"],
+  "startingBaskets": ["blue", "magenta"],
   "isTieAllowed": true,
   "hasEnded": false,
   "rounds": [
     {
       "scores": [[], []],
       "fouls": [[], []],
-      "baskets": ["magenta", "blue"],
+      "baskets": ["blue", "magenta"],
       "hasEnded": false,
       "isConfirmed": false,
       "roundMaxLength": 60000,
@@ -20,15 +20,15 @@
   ],
   "ballPlacement": [
     [0, 0],
-    [0.69, 0.48],
-    [-0.69, -0.48],
-    [-1.51, 1.02],
-    [1.51, -1.02],
-    [0.72, -1.15],
-    [-0.72, 1.15],
-    [-1.88, -0.8],
-    [1.88, 0.8],
-    [0.51, -1.21],
-    [-0.51, 1.21]
+    [0.68, -1],
+    [-0.68, 1],
+    [-1.67, 1.04],
+    [1.67, -1.04],
+    [0.76, 0.71],
+    [-0.76, -0.71],
+    [-1.76, 0.2],
+    [1.76, -0.2],
+    [-1.4, -1.29],
+    [1.4, 1.29]
   ]
 }

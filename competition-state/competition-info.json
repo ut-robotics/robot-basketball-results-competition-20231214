@@ -27,11 +27,11 @@
     "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8, 9],
     "byes": [],
     "robotStartingBaskets": {
-      "hi-bot": ["magenta", "blue", "magenta"],
+      "hi-bot": ["magenta", "blue", "blue"],
       "legiones-skitarii": ["blue", "magenta", "blue"],
       "ois3": ["magenta", "blue", "blue", "magenta"],
       "tasujad": ["blue", "magenta", "blue"],
-      "delta-y": ["magenta", "magenta", "blue"],
+      "delta-y": ["magenta", "magenta", "magenta"],
       "team-electronics": ["blue", "blue", "magenta"]
     },
     "hasEnded": false
