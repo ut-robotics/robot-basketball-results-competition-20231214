@@ -1,6 +1,10 @@
 {
   "id": "robot-basketball-competition-20231214",
   "name": "Robot Basketball Competition 2023-12-14",
-  "robots": [{"id": "tasujad", "name": "Tasujad"}],
+  "robots": [
+    {"id": "tasujad", "name": "Tasujad"},
+    {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+    {"id": "delta-y", "name": "Delta Y"}
+  ],
   "tournament": null
 }
