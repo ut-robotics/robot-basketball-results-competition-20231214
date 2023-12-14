@@ -34,6 +34,29 @@
       "delta-y": ["magenta", "magenta", "magenta"],
       "team-electronics": ["blue", "blue", "magenta"]
     },
+    "hasEnded": true
+  },
+  "doubleEliminationTournament": {
+    "robots": [
+      {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+      {"id": "tasujad", "name": "Tasujad"},
+      {"id": "delta-y", "name": "Delta Y"},
+      {"id": "ois3", "name": "Õis 3"}
+    ],
+    "gameIDs": [1001],
+    "gameTypes": {"1001": "noLoss"},
+    "noLossQueue": [
+      {"id": "delta-y", "name": "Delta Y"},
+      {"id": "ois3", "name": "Õis 3"}
+    ],
+    "oneLossQueue": [],
+    "eliminatedRobots": [],
+    "robotStartingBaskets": {
+      "legiones-skitarii": ["blue", "magenta", "blue", "blue"],
+      "tasujad": ["blue", "magenta", "blue", "magenta"],
+      "delta-y": ["magenta", "magenta", "magenta"],
+      "ois3": ["magenta", "blue", "blue", "magenta"]
+    },
     "hasEnded": false
   }
 }
