@@ -1410,7 +1410,7 @@
         ],
         "startingBaskets": ["blue", "magenta"],
         "isTieAllowed": false,
-        "hasEnded": false,
+        "hasEnded": true,
         "rounds": [
           {
             "scores": [
@@ -1516,14 +1516,20 @@
             "fouls": [[], []],
             "baskets": ["blue", "magenta"],
             "hasEnded": true,
-            "isConfirmed": false,
+            "isConfirmed": true,
             "duration": 30016,
             "timeLimit": 30000,
-            "winnerIndex": -1,
+            "winnerIndex": 0,
             "runs": [{"startTime": 1702567116678, "endTime": 1702567146694}]
           }
         ],
-        "status": {"result": "unknown"},
+        "status": {
+          "result": "won",
+          "winner": {"id": "ois3", "name": "Õis 3"},
+          "roundWinCount": 1,
+          "roundLossCount": 1,
+          "roundTieCount": 1
+        },
         "ballPlacement": [
           [0, 0],
           [1.44, -1.03],
@@ -1549,10 +1555,11 @@
       "1007": "secondFinal"
     },
     "noLossQueue": [],
-    "oneLossQueue": [],
+    "oneLossQueue": [{"id": "ois3", "name": "Õis 3"}],
     "eliminatedRobots": [
       {"id": "delta-y", "name": "Delta Y"},
-      {"id": "tasujad", "name": "Tasujad"}
+      {"id": "tasujad", "name": "Tasujad"},
+      {"id": "legiones-skitarii", "name": "Legiones Skitarii"}
     ],
     "robotStartingBaskets": {
       "legiones-skitarii": [
@@ -1578,7 +1585,7 @@
         "blue"
       ]
     },
-    "hasEnded": false
+    "hasEnded": true
   },
   "activeGame": {
     "id": 1007,
@@ -1588,7 +1595,7 @@
     ],
     "startingBaskets": ["blue", "magenta"],
     "isTieAllowed": false,
-    "hasEnded": false,
+    "hasEnded": true,
     "rounds": [
       {
         "scores": [
@@ -1694,14 +1701,20 @@
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
         "hasEnded": true,
-        "isConfirmed": false,
+        "isConfirmed": true,
         "duration": 30016,
         "timeLimit": 30000,
-        "winnerIndex": -1,
+        "winnerIndex": 0,
         "runs": [{"startTime": 1702567116678, "endTime": 1702567146694}]
       }
     ],
-    "status": {"result": "unknown"},
+    "status": {
+      "result": "won",
+      "winner": {"id": "ois3", "name": "Õis 3"},
+      "roundWinCount": 1,
+      "roundLossCount": 1,
+      "roundTieCount": 1
+    },
     "ballPlacement": [
       [0, 0],
       [1.44, -1.03],

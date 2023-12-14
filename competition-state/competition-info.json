@@ -54,10 +54,11 @@
       "1007": "secondFinal"
     },
     "noLossQueue": [],
-    "oneLossQueue": [],
+    "oneLossQueue": [{"id": "ois3", "name": "Õis 3"}],
     "eliminatedRobots": [
       {"id": "delta-y", "name": "Delta Y"},
-      {"id": "tasujad", "name": "Tasujad"}
+      {"id": "tasujad", "name": "Tasujad"},
+      {"id": "legiones-skitarii", "name": "Legiones Skitarii"}
     ],
     "robotStartingBaskets": {
       "legiones-skitarii": [
@@ -83,6 +84,6 @@
         "blue"
       ]
     },
-    "hasEnded": false
+    "hasEnded": true
   }
 }
