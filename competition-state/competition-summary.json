@@ -879,10 +879,10 @@
             "baskets": ["blue", "magenta"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 4,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1702564135573, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -917,105 +917,40 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 9,
+    "id": 1001,
     "robots": [
       {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
-      {"id": "delta-y", "name": "Delta Y"}
+      {"id": "tasujad", "name": "Tasujad"}
     ],
     "startingBaskets": ["blue", "magenta"],
-    "isTieAllowed": true,
-    "hasEnded": true,
+    "isTieAllowed": false,
+    "hasEnded": false,
     "rounds": [
       {
-        "scores": [
-          [{"time": 1702563587832, "isValid": true}],
-          [
-            {"time": 1702563440699, "isValid": true},
-            {"time": 1702563505785, "isValid": true}
-          ]
-        ],
-        "fouls": [[], [{"time": 1702563452247}, {"time": 1702563515316}]],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60057,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [
-          {"startTime": 1702563431415, "endTime": 1702563445181},
-          {"startTime": 1702563494043, "endTime": 1702563508758},
-          {"startTime": 1702563561553, "endTime": 1702563593129}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1702563731954, "isValid": true},
-            {"time": 1702563735742, "isValid": true},
-            {"time": 1702563761479, "isValid": true},
-            {"time": 1702563765417, "isValid": true},
-            {"time": 1702563771186, "isValid": true},
-            {"time": 1702563777582, "isValid": true}
-          ],
-          [
-            {"time": 1702563763941, "isValid": true},
-            {"time": 1702563793424, "isValid": true}
-          ]
-        ],
-        "fouls": [[], [{"time": 1702563745711}, {"time": 1702563816202}]],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60077,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [
-          {"startTime": 1702563723606, "endTime": 1702563736910},
-          {"startTime": 1702563757418, "endTime": 1702563798277},
-          {"startTime": 1702563834970, "endTime": 1702563840884}
-        ]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1702563934887, "isValid": true},
-            {"time": 1702563941190, "isValid": true},
-            {"time": 1702563945659, "isValid": true},
-            {"time": 1702563945783, "isValid": false},
-            {"time": 1702563945902, "isValid": false},
-            {"time": 1702563952063, "isValid": true}
-          ],
-          [{"time": 1702563975944, "isValid": true}]
-        ],
+        "scores": [[], []],
         "fouls": [[], []],
         "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60003,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 4,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1702563922006, "endTime": 1702563982009}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1702564135573, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
-      "roundWinCount": 2,
-      "roundLossCount": 1,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.43, 0.68],
-      [0.43, -0.68],
-      [-2.02, -0.56],
-      [2.02, 0.56],
-      [1.32, -0.39],
-      [-1.32, 0.39],
-      [-0.54, -1.14],
-      [0.54, 1.14],
-      [1.86, -0.35],
-      [-1.86, 0.35]
+      [1.65, 0.15],
+      [-1.65, -0.15],
+      [0.03, -0.48],
+      [-0.03, 0.48],
+      [0.19, 0.66],
+      [-0.19, -0.66],
+      [0.5, 0.81],
+      [-0.5, -0.81],
+      [-1.35, -0.73],
+      [1.35, 0.73]
     ]
   }
 }
