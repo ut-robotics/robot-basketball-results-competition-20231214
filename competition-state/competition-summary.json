@@ -183,15 +183,26 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [
+              [
+                {"time": 1702557832901, "isValid": true},
+                {"time": 1702557836141, "isValid": true},
+                {"time": 1702557844412, "isValid": true}
+              ],
+              [
+                {"time": 1702557836305, "isValid": true},
+                {"time": 1702557842878, "isValid": true},
+                {"time": 1702557843013, "isValid": true}
+              ]
+            ],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 21456,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1702557822960, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -250,75 +261,51 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 2,
+    "id": 3,
     "robots": [
-      {"id": "ois3", "name": "Õis 3"},
-      {"id": "tasujad", "name": "Tasujad"}
+      {"id": "delta-y", "name": "Delta Y"},
+      {"id": "team-electronics", "name": "Team Electronics"}
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": true,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [
           [
-            {"time": 1702557548772, "isValid": true},
-            {"time": 1702557576342, "isValid": true}
-          ],
-          [{"time": 1702557563091, "isValid": true}]
-        ],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60020,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1702557537328, "endTime": 1702557597348}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1702557667957, "isValid": true},
-            {"time": 1702557672109, "isValid": true},
-            {"time": 1702557680857, "isValid": true},
-            {"time": 1702557690913, "isValid": true}
+            {"time": 1702557832901, "isValid": true},
+            {"time": 1702557836141, "isValid": true},
+            {"time": 1702557844412, "isValid": true}
           ],
           [
-            {"time": 1702557668193, "isValid": true},
-            {"time": 1702557672502, "isValid": true},
-            {"time": 1702557690402, "isValid": true}
+            {"time": 1702557836305, "isValid": true},
+            {"time": 1702557842878, "isValid": true},
+            {"time": 1702557843013, "isValid": true}
           ]
         ],
         "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 56549,
+        "baskets": ["magenta", "blue"],
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 21456,
         "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1702557657112, "endTime": 1702557713661}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1702557822960, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "ois3", "name": "Õis 3"},
-      "roundWinCount": 2,
-      "roundLossCount": 0,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.81, 0.28],
-      [0.81, -0.28],
-      [-0.97, -1.41],
-      [0.97, 1.41],
-      [0.18, 1.23],
-      [-0.18, -1.23],
-      [1.16, 0.08],
-      [-1.16, -0.08],
-      [1.55, 0.92],
-      [-1.55, -0.92]
+      [-1.96, 0.35],
+      [1.96, -0.35],
+      [0.39, -0.56],
+      [-0.39, 0.56],
+      [1.56, 1.14],
+      [-1.56, -1.14],
+      [-2.12, 0.74],
+      [2.12, -0.74],
+      [-0.44, -1],
+      [0.44, 1]
     ]
   }
 }
