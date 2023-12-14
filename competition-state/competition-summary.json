@@ -1,6 +1,6 @@
 {
   "id": "robot-basketball-competition-20231214",
   "name": "Robot Basketball Competition 2023-12-14",
-  "robots": [],
+  "robots": [{"id": "tasujad", "name": "Tasujad"}],
   "tournament": null
 }
