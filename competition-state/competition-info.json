@@ -9,5 +9,31 @@
     {"id": "hi-bot", "name": "Hi...Bot"},
     {"id": "ois3", "name": "Õis 3"}
   ],
-  "tournament": null
+  "tournament": {
+    "swissEnabled": true,
+    "numberOfSwissRounds": 3,
+    "doubleEliminationEnabled": true
+  },
+  "swissSystemTournament": {
+    "robots": [
+      {"id": "hi-bot", "name": "Hi...Bot"},
+      {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
+      {"id": "ois3", "name": "Õis 3"},
+      {"id": "tasujad", "name": "Tasujad"},
+      {"id": "delta-y", "name": "Delta Y"},
+      {"id": "team-electronics", "name": "Team Electronics"}
+    ],
+    "roundCount": 3,
+    "gameIDs": [1, 2, 3],
+    "byes": [],
+    "robotStartingBaskets": {
+      "hi-bot": ["magenta"],
+      "legiones-skitarii": ["blue"],
+      "ois3": ["magenta"],
+      "tasujad": ["blue"],
+      "delta-y": ["magenta"],
+      "team-electronics": ["blue"]
+    },
+    "hasEnded": false
+  }
 }
