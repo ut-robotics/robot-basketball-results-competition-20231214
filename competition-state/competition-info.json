@@ -43,16 +43,19 @@
       {"id": "delta-y", "name": "Delta Y"},
       {"id": "ois3", "name": "Õis 3"}
     ],
-    "gameIDs": [1001, 1002],
-    "gameTypes": {"1001": "noLoss", "1002": "noLoss"},
-    "noLossQueue": [{"id": "legiones-skitarii", "name": "Legiones Skitarii"}],
-    "oneLossQueue": [{"id": "tasujad", "name": "Tasujad"}],
+    "gameIDs": [1001, 1002, 1003],
+    "gameTypes": {"1001": "noLoss", "1002": "noLoss", "1003": "noLoss"},
+    "noLossQueue": [],
+    "oneLossQueue": [
+      {"id": "tasujad", "name": "Tasujad"},
+      {"id": "delta-y", "name": "Delta Y"}
+    ],
     "eliminatedRobots": [],
     "robotStartingBaskets": {
-      "legiones-skitarii": ["blue", "magenta", "blue", "blue"],
+      "legiones-skitarii": ["blue", "magenta", "blue", "blue", "magenta"],
       "tasujad": ["blue", "magenta", "blue", "magenta"],
       "delta-y": ["magenta", "magenta", "magenta", "magenta"],
-      "ois3": ["magenta", "blue", "blue", "magenta", "blue"]
+      "ois3": ["magenta", "blue", "blue", "magenta", "blue", "blue"]
     },
     "hasEnded": false
   }
