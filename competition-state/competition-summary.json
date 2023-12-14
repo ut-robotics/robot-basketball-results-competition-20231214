@@ -1112,15 +1112,23 @@
         "hasEnded": false,
         "rounds": [
           {
-            "scores": [[], []],
+            "scores": [
+              [
+                {"time": 1702565110778, "isValid": true},
+                {"time": 1702565113834, "isValid": true},
+                {"time": 1702565118911, "isValid": true},
+                {"time": 1702565119044, "isValid": true}
+              ],
+              []
+            ],
             "fouls": [[], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
-            "duration": 0,
+            "duration": 14704,
             "timeLimit": 60000,
             "winnerIndex": -1,
-            "runs": []
+            "runs": [{"startTime": 1702565104343, "endTime": null}]
           }
         ],
         "status": {"result": "unknown"},
@@ -1157,105 +1165,48 @@
     "hasEnded": false
   },
   "activeGame": {
-    "id": 1003,
+    "id": 1004,
     "robots": [
-      {"id": "legiones-skitarii", "name": "Legiones Skitarii"},
-      {"id": "ois3", "name": "Õis 3"}
+      {"id": "tasujad", "name": "Tasujad"},
+      {"id": "delta-y", "name": "Delta Y"}
     ],
     "startingBaskets": ["magenta", "blue"],
     "isTieAllowed": false,
-    "hasEnded": true,
+    "hasEnded": false,
     "rounds": [
       {
         "scores": [
           [
-            {"time": 1702564726738, "isValid": true},
-            {"time": 1702564733866, "isValid": true},
-            {"time": 1702564733977, "isValid": false},
-            {"time": 1702564737996, "isValid": true}
+            {"time": 1702565110778, "isValid": true},
+            {"time": 1702565113834, "isValid": true},
+            {"time": 1702565118911, "isValid": true},
+            {"time": 1702565119044, "isValid": true}
           ],
-          [
-            {"time": 1702564712800, "isValid": true},
-            {"time": 1702564718948, "isValid": true},
-            {"time": 1702564726767, "isValid": true},
-            {"time": 1702564736936, "isValid": true},
-            {"time": 1702564749217, "isValid": false}
-          ]
+          []
         ],
         "fouls": [[], []],
         "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 57325,
+        "hasEnded": false,
+        "isConfirmed": false,
+        "duration": 14704,
         "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1702564704198, "endTime": 1702564761523}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1702564851541, "isValid": true},
-            {"time": 1702564858358, "isValid": true},
-            {"time": 1702564865364, "isValid": true},
-            {"time": 1702564873405, "isValid": true},
-            {"time": 1702564883177, "isValid": true}
-          ],
-          [
-            {"time": 1702564843798, "isValid": true},
-            {"time": 1702564878265, "isValid": true},
-            {"time": 1702564889953, "isValid": false}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["blue", "magenta"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60071,
-        "timeLimit": 60000,
-        "winnerIndex": 0,
-        "runs": [{"startTime": 1702564835673, "endTime": 1702564895744}]
-      },
-      {
-        "scores": [
-          [
-            {"time": 1702564974983, "isValid": true},
-            {"time": 1702565008777, "isValid": true}
-          ],
-          [
-            {"time": 1702564964686, "isValid": true},
-            {"time": 1702564974756, "isValid": true},
-            {"time": 1702564981034, "isValid": true}
-          ]
-        ],
-        "fouls": [[], []],
-        "baskets": ["magenta", "blue"],
-        "hasEnded": true,
-        "isConfirmed": true,
-        "duration": 60034,
-        "timeLimit": 60000,
-        "winnerIndex": 1,
-        "runs": [{"startTime": 1702564953791, "endTime": 1702565013825}]
+        "winnerIndex": -1,
+        "runs": [{"startTime": 1702565104343, "endTime": null}]
       }
     ],
-    "status": {
-      "result": "won",
-      "winner": {"id": "ois3", "name": "Õis 3"},
-      "roundWinCount": 2,
-      "roundLossCount": 1,
-      "roundTieCount": 0
-    },
+    "status": {"result": "unknown"},
     "ballPlacement": [
       [0, 0],
-      [-0.87, -1.44],
-      [0.87, 1.44],
-      [0.83, 0.55],
-      [-0.83, -0.55],
-      [1.5, 0.1],
-      [-1.5, -0.1],
-      [1.71, -0.9],
-      [-1.71, 0.9],
-      [-0.41, 0.39],
-      [0.41, -0.39]
+      [-0.5, -1.03],
+      [0.5, 1.03],
+      [2.15, -0.53],
+      [-2.15, 0.53],
+      [0.3, 1.44],
+      [-0.3, -1.44],
+      [-1.22, 0.42],
+      [1.22, -0.42],
+      [-1.6, -1.09],
+      [1.6, 1.09]
     ]
   }
 }
