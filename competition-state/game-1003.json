@@ -21,7 +21,7 @@
           {"time": 1702564718948, "isValid": true},
           {"time": 1702564726767, "isValid": true},
           {"time": 1702564736936, "isValid": true},
-          {"time": 1702564749217, "isValid": true}
+          {"time": 1702564749217, "isValid": false}
         ]
       ],
       "fouls": [[], []],
