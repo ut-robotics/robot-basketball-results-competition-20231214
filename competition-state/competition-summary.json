@@ -1117,13 +1117,13 @@
                 {"time": 1702565110778, "isValid": true},
                 {"time": 1702565113834, "isValid": true},
                 {"time": 1702565118911, "isValid": true},
-                {"time": 1702565119044, "isValid": true},
+                {"time": 1702565119044, "isValid": false},
                 {"time": 1702565133065, "isValid": true},
                 {"time": 1702565139517, "isValid": true}
               ],
               []
             ],
-            "fouls": [[], []],
+            "fouls": [[{"time": 1702565161762}], []],
             "baskets": ["magenta", "blue"],
             "hasEnded": false,
             "isConfirmed": false,
@@ -1182,13 +1182,13 @@
             {"time": 1702565110778, "isValid": true},
             {"time": 1702565113834, "isValid": true},
             {"time": 1702565118911, "isValid": true},
-            {"time": 1702565119044, "isValid": true},
+            {"time": 1702565119044, "isValid": false},
             {"time": 1702565133065, "isValid": true},
             {"time": 1702565139517, "isValid": true}
           ],
           []
         ],
-        "fouls": [[], []],
+        "fouls": [[{"time": 1702565161762}], []],
         "baskets": ["magenta", "blue"],
         "hasEnded": false,
         "isConfirmed": false,
