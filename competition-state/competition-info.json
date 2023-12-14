@@ -27,11 +27,11 @@
     "gameIDs": [1, 2, 3, 4, 5, 6, 7, 8],
     "byes": [],
     "robotStartingBaskets": {
-      "hi-bot": ["magenta", "blue", "blue"],
-      "legiones-skitarii": ["blue", "magenta", "blue"],
-      "ois3": ["magenta", "blue"],
-      "tasujad": ["blue", "magenta", "magenta"],
-      "delta-y": ["magenta", "magenta"],
+      "hi-bot": ["magenta", "blue"],
+      "legiones-skitarii": ["blue", "magenta", "magenta"],
+      "ois3": ["magenta", "blue", "blue"],
+      "tasujad": ["blue", "magenta"],
+      "delta-y": ["magenta", "magenta", "blue"],
       "team-electronics": ["blue", "blue", "magenta"]
     },
     "hasEnded": false
